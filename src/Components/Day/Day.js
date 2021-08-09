@@ -2,7 +2,7 @@ import React from 'react'
 import './Day.css';
 
 export default function Day(props) {
-    const { icon, temperature, description } = props.dayinfo;
+    const { icon, temperature, description} = props.dayinfo;
     return (
         <div className={`day  ${description}`}>
             <h1>{props.dayName}</h1>
